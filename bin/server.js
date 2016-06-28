@@ -5,6 +5,7 @@ var express    = require('express');
 var app        = express();
 var bodyParser = require('body-parser');
 var colors     = require('colors');
+var cors       = require('cors');
 
 var mongoose   = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/knoodle');
@@ -13,6 +14,7 @@ mongoose.connect('mongodb://localhost:27017/knoodle');
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(cors());
 
 var port = process.env.PORT || 8080;
 

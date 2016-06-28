@@ -13,8 +13,8 @@ In order to make it work correctly you need:
 ## Installation
 
 ```
-$ git clone <repository>
-$ cd <repository>
+$ git clone git@github.com:KnpLabs/knoodle-react-api.git
+$ cd knoodle-react-api
 $ npm install
 $ npm start
 ```
