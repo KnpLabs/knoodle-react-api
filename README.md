@@ -87,10 +87,12 @@ Create an answer for a given survey. Json body must looks like:
 }
 ```
 
-## Loading some fake data:
+## Loading some fake data
 
-You can load some dataset with by running:
+You can load some dataset by running:
 
 ```
 $ npm run fixtures
 ```
+
+This command will load 30 fake surveys to the database.
