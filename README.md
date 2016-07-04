@@ -57,7 +57,13 @@ Create a new survey. This is an example of json body:
 
 ### `GET /surveys`
 
-Return all surveys documents.
+Return all surveys documents. You can filter results with the following
+filters:
+
+| by     | accept `popularity` or empty by title asc. |
+| title  | string, the content you need in the title  |
+| offset | integer. Default to 0                      |
+| limit  | integer. Default 20                        |
 
 ### `GET /surveys/:surveyId`
 
