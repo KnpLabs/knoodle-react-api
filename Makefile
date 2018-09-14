@@ -1,6 +1,6 @@
 .PHONY: install-deps
 install-deps:
-	docker-compose run --rm -u node app npm install
+	docker-compose run --rm app npm install
 
 .PHONY: load-fixtures
 load-fixtures:
