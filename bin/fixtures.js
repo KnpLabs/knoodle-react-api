@@ -2,7 +2,7 @@
 'use strict';
 
 var mongoose   = require('mongoose');
-var connection = mongoose.connect('mongodb://localhost:27017/knoodle');
+var connection = mongoose.connect('mongodb://mongodb:27017/knoodle');
 var Survey = require('./../lib/models/survey');
 var Question = require('./../lib/models/question');
 var faker = require('faker');

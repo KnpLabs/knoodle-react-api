@@ -5,18 +5,18 @@ This is a really simple REST Api for the knoodle project.
 
 ## Requirements
 
-In order to make it work correctly you need:
+In order to make it work correctly you need the latest versions of:
 
-- MongoDB
-- Nodejs (with NPM !) (>= **v5.0**)
+- docker-ce
+- docker-compose
 
 ## Installation
 
 ```
 $ git clone git@github.com:KnpLabs/knoodle-react-api.git
 $ cd knoodle-react-api
-$ npm install
-$ npm start
+$ make install-deps
+$ make start
 ```
 
 ## How to use it ?
@@ -100,7 +100,7 @@ Create an answer for a given survey. Json body must looks like:
 You can load some dataset by running:
 
 ```
-$ npm run fixtures
+$ make load-fixtures
 ```
 
 This command will load 30 fake surveys to the database.

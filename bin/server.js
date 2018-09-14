@@ -8,7 +8,7 @@ var colors     = require('colors');
 var cors       = require('cors');
 
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/knoodle');
+mongoose.connect('mongodb://mongodb:27017/knoodle');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
