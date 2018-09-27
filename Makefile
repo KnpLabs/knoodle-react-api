@@ -12,4 +12,4 @@ start:
 
 .PHONY: stop
 stop:
-	docker-compose stop
+	docker-compose down
