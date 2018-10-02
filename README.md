@@ -5,7 +5,7 @@ This is a really simple REST Api for the knoodle project.
 
 ## Requirements
 
-In order to make it work correctly you need the latest versions of:
+In order to make it work correctly you need the latest version of:
 
 - docker-ce
 - docker-compose
@@ -57,7 +57,7 @@ Create a new survey. This is an example of json body:
 
 ### `GET /surveys`
 
-Return all surveys documents. You can filter results with the following
+Return all survey documents. You can filter results with the following
 filters:
 
 | Query String | Values                                                 |
@@ -81,7 +81,7 @@ Remove an existing survey.
 
 ### `POST /surveys/:surveyId/answers`
 
-Create an answer for a given survey. Json body must looks like:
+Create an answer for a given survey. Json body must look like:
 
 ```json
 {
