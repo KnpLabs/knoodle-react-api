@@ -104,3 +104,21 @@ $ make load-fixtures
 ```
 
 This command will load 30 fake surveys to the database.
+
+## Maintainers
+
+KNPLabs is looking for maintainers ([see why](https://knplabs.com/en/blog/news-for-our-foss-projects-maintenance)).
+
+If you are interested, feel free to open a PR to ask to be added as a maintainer.
+
+We’ll be glad to hear from you :)
+
+This library is maintained by the following people (alphabetically sorted) :
+
+@Djeg
+@lcouellan
+@nicolasmure
+
+## Credits
+
+Knoodle API has been originally developed by the [KnpLabs](http://knplabs.com) team.
